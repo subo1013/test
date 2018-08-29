@@ -1,0 +1,10 @@
+@import "@/lib/reset.scss";
+
+header {
+	@include flexbox();
+	@include border(0 0 1px 0, #ddd, solid);
+//	@include rect(100%, 0.5rem);
+	@include rect(100%, 1rem);
+	@include font-size(.28rem);
+	@include background-color(blue);
+}

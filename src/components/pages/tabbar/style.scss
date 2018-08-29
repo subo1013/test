@@ -1,0 +1,27 @@
+
+@import "@/lib/reset.scss";
+
+.router-link-exact-active,
+.router-link-active {
+  @include text-color(blue);
+}
+.tab_header{
+    @include flexbox();
+    @include border(0 0 1px 0, #ddd, solid);
+//  @include rect(100%, 0.5rem);
+    @include rect(100%, 1rem);
+    
+    @include background-color(#F8F8F8);
+    ul{
+      @include rect(100%, 100%);
+      @include flexbox();
+      li{
+          @include flex();
+          @include rect(auto, 100%);
+					@include flexbox();
+					@include justify-content();
+					@include align-items();
+					@include font-size(.28rem);
+      }
+  } 
+}

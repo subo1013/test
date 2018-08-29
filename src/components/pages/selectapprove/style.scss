@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: .14rem;
+    font-family: "微软雅黑";
+}
+
+#box {
+    width: 5.00rem;
+    height: auto;
+    border: 1rpx solid #ccc;
+    margin: .50rem auto;
+    padding: .10rem;
+}
+
+.search {
+    width: 4.80rem;
+    height: 1.00rem;
+    text-align: center;
+}
+
+.searchBox {
+    width: 2.30rem;
+    height: .40rem;
+    outline: none;
+    text-indent: .10rem;
+    margin-right: .20rem;
+}
+
+.btn {
+    width: 1.00rem;
+    height: .50rem;
+    cursor: pointer;
+    font-size: .18rem;
+}
+
+.goodsheet {
+    width: 5.00rem;
+    height: auto;
+    border: 1px solid #eee;
+}
+
+.goodsheet tr td,
+.goodsheet tr th {
+    width: 33%;
+    border: 1px solid #eee;
+    padding: .05rem .10rem;
+    text-align: left;
+}
+
+.goodsheet tr th span {
+    background: #ff9900;
+    padding: 0 .06rem;
+    color: #fff;
+    cursor: pointer;
+}

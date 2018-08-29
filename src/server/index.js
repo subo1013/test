@@ -1,0 +1,1 @@
+export const HOME_INFO = '/v2/movie/top250?start=50&count=50'

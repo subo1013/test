@@ -1,0 +1,27 @@
+@import '@/lib/reset.scss';
+
+.input_Target{
+    @include flexbox();
+//  @include rect(100%, .3rem);
+    @include rect(100%, .6rem);
+    
+    @include border(0 0 1px 0, #ccc, solid);
+//  @include margin(0 0 0 .1rem)
+    @include margin(0 0 0 .2rem)
+    
+    label{
+        @include rect(20%, 100%);
+//      @include line-height(.3rem);
+        @include line-height(.6rem);
+        
+    }
+    .Ipt{
+        @include flex();
+        @include rect(auto, 100%)
+        input{
+            @include rect(100%, 100%)
+            border: none;
+        }
+    }
+    
+}
